@@ -1,0 +1,50 @@
+# 🌌 AI 智能量化投研平台 V1.0 (AI Quant Investment Research Platform)
+> **By JackBlackman** | An All-in-One AI-driven Financial Terminal
+
+## 🇨🇳 中文简介
+
+欢迎使用 **AI 智能量化投研平台 V1.0**！这是一款专为个人投资者、量化研究员打造的现代化桌面端投研工具。本软件将“多源财经数据直连”与“前沿大语言模型（LLM）”深度结合，为您提供全天候、自动化的股市与基金盘面监控及策略分析。
+
+### ✨ 核心功能特色
+* **🛡️ 自研直连底层爬虫**：彻底告别第三方接口的不稳定性！内置直连财联社电报、人民网 RSS 的极速网络爬虫，获取一手宏观快讯。
+* **⚡ 腾讯原生极速接口备援**：采用腾讯财经底层极速网络通道，毫秒级获取沪深 A 股涨幅榜及自选股/ETF基金最新盘面数据。
+* **🧠 多路大模型智能推理**：原生支持 Kimi (Moonshot)、DeepSeek、智谱 GLM、豆包 等国内顶尖 AI 大模型，一键切换核心大脑。
+* **🎯 自选股基精准诊断**：不仅看大盘，更懂你的仓位。结合技术面均线（MA5/MA20）与宏观基本面，为你的自选股和基金生成专属操作建议。
+* **📱 全场景消息路由推送**：支持 Server酱 与 AstrBot (Webhook) 双路推送，策略研报自动发送至您的微信或群聊。
+* **🎨 极客风现代化 UI**：采用 CustomTkinter 引擎构建，纯正微软雅黑字体，暗黑主题，提供流畅的高级 SaaS 交互体验。
+
+### 🚀 如何运行与使用
+如果你是普通用户：请前往 [Releases] 页面直接下载打包好的 `.exe` 桌面软件，双击即可运行。
+如果你是开发者：
+1. 克隆本项目到本地。
+2. 安装依赖：`pip install customtkinter requests pandas akshare openai beautifulsoup4`
+3. 运行主程序：`python app_main.py`
+
+*(⚠️ 隐私提示：您的 API 密钥与自选股数据均保存在本地 `settings_pro.json` 中，绝不会上传至任何第三方服务器。)*
+
+---
+
+## 🇬🇧 English Introduction
+
+Welcome to the **AI Quant Investment Research Platform V1.0**! Designed for individual investors and quantitative researchers, this modern desktop terminal seamlessly integrates multi-source financial data with cutting-edge Large Language Models (LLMs) to provide automated, 24/7 market monitoring and strategic analysis.
+
+### ✨ Key Features
+* **🛡️ Custom Direct Web Scrapers**: Say goodbye to unstable third-party APIs. Built-in direct scrapers for Cailian Press and People's Daily RSS feeds ensure you get macro news instantly.
+* **⚡ Tencent Native Finance API**: Utilizes Tencent's ultra-fast underlying network to fetch real-time A-share gainers, custom stocks, and ETF data with millisecond latency.
+* **🧠 Multi-LLM Support**: Natively supports top-tier AI models including Kimi (Moonshot), DeepSeek, Zhipu GLM, and Doubao. Switch your AI brain with a single click.
+* **🎯 Personalized Portfolio Diagnosis**: Combines technical indicators (MA5/MA20) with macro fundamentals to generate tailored trading advice for your specific stock and fund holdings.
+* **📱 Omnichannel Push Notifications**: Supports ServerChan and AstrBot (Webhook) routing. Automated investment reports are pushed directly to your WeChat or chat groups.
+* **🎨 Modern Geek-Chic UI**: Built with the CustomTkinter engine, featuring a sleek Dark Mode and smooth interactions that rival professional SaaS applications.
+
+### 🚀 Installation & Usage
+**For General Users:** Go to the [Releases] page, download the `.exe` file, and double-click to run.
+**For Developers:**
+1. Clone this repository.
+2. Install dependencies: `pip install customtkinter requests pandas akshare openai beautifulsoup4`
+3. Run the app: `python app_main.py`
+
+*(⚠️ Privacy Notice: Your API keys and portfolio data are stored safely on your local machine in `settings_pro.json` and are NEVER uploaded to any third-party servers.)*
+
+---
+**免责声明 / Disclaimer**：
+本软件生成的任何投资策略和建议仅由 AI 模型基于公开数据推理得出，仅供参考和学习交流之用，**不构成任何实质性的投资建议**。股市有风险，投资需谨慎。作者 JackBlackman 不对任何因使用本软件而导致的投资损失负责。

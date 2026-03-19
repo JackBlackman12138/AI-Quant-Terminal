@@ -1,0 +1,11 @@
+# 隐私与本地数据
+settings_pro.json
+daily_reports/
+
+# Python 缓存
+__pycache__/
+
+# 打包生成的垃圾文件和安装包
+dist/
+build/
+*.spec
